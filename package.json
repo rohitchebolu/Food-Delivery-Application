@@ -1,0 +1,22 @@
+{
+  "name": "food-delivery-application",
+  "version": "1.0.0",
+  "description": "This is a food delivery application build by Rohit",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitchebolu/Food-Delivery-Application.git"
+  },
+  "author": "Rohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitchebolu/Food-Delivery-Application/issues"
+  },
+  "homepage": "https://github.com/rohitchebolu/Food-Delivery-Application#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
