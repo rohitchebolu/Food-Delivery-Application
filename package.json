@@ -2,7 +2,6 @@
   "name": "food-delivery-application",
   "version": "1.0.0",
   "description": "This is a food delivery application build by Rohit",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -23,5 +22,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browserList":[
+    "last two version"
+  ]
 }
