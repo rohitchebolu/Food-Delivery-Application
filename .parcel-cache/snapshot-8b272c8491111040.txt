@@ -5,7 +5,7 @@
 98C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\css-select\lib\esm\index.js.map133617108773937162 0
 105C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\core\src\public\BundleGroup.js133617108774133165 0
 94C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\type-fest\source\entry.d.ts133617108769437720 0
-69C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.html133617117813256002 0
+69C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.html133617853362390334 0
 149C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeAttributesBySelector.js133617108773257435 0
 82C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\lmdb\caching.js133617108777607833 0
 95C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\htmlnano\docs\versioned_docs133617108774368488 1
@@ -35,12 +35,12 @@
 111C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\transformer-html\node_modules\srcset133617108766484325 1
 108C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\source-map-js\lib\source-map-generator.js133617108768603965 0
 95C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\type-fest\source\except.d.ts133617108769602141 0
-60C:\Users\C.Rohith\Documents\Food-Delivery-Application\app.js133617117807063051 0
+60C:\Users\C.Rohith\Documents\Food-Delivery-Application\app.js133617861234038516 0
 108C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\react-dom\umd\react-dom.production.min.js133617113321559525 0
 94C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@swc\helpers\esm\_update.js133617108779141286 0
 76C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\commander133617108768287433 1
 119C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\scheduler\cjs\scheduler-unstable_mock.development.js133617113314765989 0
-64C:\Users\C.Rohith\Documents\Food-Delivery-Application\.gitignore133617107138027039 0
+64C:\Users\C.Rohith\Documents\Food-Delivery-Application\.gitignore133617139372784690 0
 113C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\caniuse-lite\data\features\webkit-user-drag.js133617108789235168 0
 117C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\caniuse-lite\data\features\css-media-resolution.js133617108779450026 0
 93C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\nth-check\lib\parse.js.map133617108770538041 0
@@ -61,7 +61,7 @@
 106C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@swc\helpers\_\_class_private_field_set133617108780067281 1
 73C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\base-x133617108766058919 1
 108C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\csso\cjs\restructure\3-disjoinRuleset.cjs133617108766274167 0
-76C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.5baa4167.js133617117814221484 0
+76C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.5baa4167.js133617861236732742 0
 86C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\has-flag\index.d.ts133617108764261469 0
 98C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\caniuse-lite\data\regions\RE.js133617108787076834 0
 126C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\csso\node_modules\css-tree\lib\utils\create-custom-error.js133617108778220690 0
@@ -81,7 +81,7 @@
 76C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\is-number133617108765783996 1
 73C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@babel133617108730418791 1
 95C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\css-tree\cjs\utils\clone.cjs133617108769954670 0
-58C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist133617117814331709 1
+58C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist133617861237192042 1
 114C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\msgpackr-extract\node_modules\@msgpackr-extract133617113325866890 1
 77C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\parcel\src133617108751056528 1
 104C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\lmdb\dependencies\lz4\lib\dll\example133617108778647750 1
@@ -109,7 +109,7 @@
 114C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\csso\node_modules\css-tree\cjs\utils\string.cjs133617108776809401 0
 94C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\svgo\plugins\_transforms.js133617108772984953 0
 71C:\Users\C.Rohith\Documents\Food-Delivery-Application\package-lock.json133617113326456779 0
-66C:\Users\C.Rohith\Documents\Food-Delivery-Application\package.json133617113325938897 0
+66C:\Users\C.Rohith\Documents\Food-Delivery-Application\package.json133617152204060076 0
 127C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\scheduler\cjs\scheduler-unstable_post_task.production.min.js133617113314925404 0
 77C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\domhandler133617108767756686 1
 136C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Value.js133617108777743059 0
@@ -143,7 +143,7 @@
 111C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\utils\test\input\sourcemap\inline.js133617108774079000 0
 127C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-generate.js133617108779257285 0
 83C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\stable\README.md133617108765180160 0
-63C:\Users\C.Rohith\Documents\Food-Delivery-Application\style.css133616995428175611 0
+63C:\Users\C.Rohith\Documents\Food-Delivery-Application\style.css133617860946281245 0
 84C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\csso\lib\index.js133617108775612926 0
 105C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\core\lib\public\Environment.js133617108775409396 0
 105C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\@parcel\watcher-win32-x64\watcher.node133617108768924214 0
@@ -5980,6 +5980,6 @@
 98C:\Users\C.Rohith\Documents\Food-Delivery-Application\node_modules\.bin\update-browserslist-db.ps1133617109039686020 0
 100C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\Food-Delivery-Application.3464ddca.js.map133617112738167777 0
 80C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.7c0ccee6.js.map133617112737659706 0
-77C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.3a01df49.css133617117813156027 0
-81C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.3a01df49.css.map133617117813315988 0
-80C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.5baa4167.js.map133617117814321920 0
+77C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.3a01df49.css133617860947723519 0
+81C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.3a01df49.css.map133617860947748616 0
+80C:\Users\C.Rohith\Documents\Food-Delivery-Application\dist\index.5baa4167.js.map133617861237089591 0
