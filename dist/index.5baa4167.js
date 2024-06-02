@@ -3032,47 +3032,142 @@ const Header = ()=>{
     }, undefined);
 };
 _c = Header;
-const RestaurantCard = ()=>{
+const RestaurantCard = (props)=>{
+    const { resData } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "res-card",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + resData.info.cloudinaryImageId,
                 id: "res-img"
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 35,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Pizza Hut"
             }, void 0, false, {
                 fileName: "app.js",
                 lineNumber: 36,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: "4.2"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: resData.info.name
             }, void 0, false, {
                 fileName: "app.js",
                 lineNumber: 37,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Gajuwaka"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: resData.info.avgRating
             }, void 0, false, {
                 fileName: "app.js",
                 lineNumber: 38,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: resData.info.cuisines
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 39,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: resData.info.locality
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 5
     }, undefined);
 };
 _c1 = RestaurantCard;
+const resObj = [
+    {
+        "info": {
+            "id": "334228",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+            "locality": "Gajuwaka",
+            "areaName": "Gajuwaka",
+            "costForTwo": "\u20B9350 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 4.2,
+            "parentId": "721",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-06-02 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT \u20B9189"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-dc3ba857-8fb5-4060-bec6-ac9e092867b0"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-hut-gajuwaka-vizag-334228",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+];
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body",
@@ -3083,67 +3178,27 @@ const Body = ()=>{
                 placeholder: "Find your favourite dish"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 46,
+                lineNumber: 154,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "res-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                children: resObj.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {
+                        resData: restaurant
+                    }, restaurant.info.id, false, {
                         fileName: "app.js",
-                        lineNumber: 48,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 49,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 50,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 53,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                        lineNumber: 156,
+                        columnNumber: 38
+                    }, undefined))
+            }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 47,
+                lineNumber: 155,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 45,
+        lineNumber: 153,
         columnNumber: 5
     }, undefined);
 };
@@ -3154,18 +3209,18 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 65,
+                lineNumber: 165,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 66,
+                lineNumber: 166,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 64,
+        lineNumber: 164,
         columnNumber: 5
     }, undefined);
 };
@@ -3173,7 +3228,7 @@ _c3 = AppLayout;
 const root = (0, _reactDomDefault.default).createRoot(document.querySelector("#root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 71,
+    lineNumber: 171,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3;
